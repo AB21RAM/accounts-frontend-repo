@@ -1,0 +1,46 @@
+deductions
+newDeductions &&& otherDeductions
+
+
+OTHER DEDUCTIONS
+
+
+EMP CODE is not present is salary slip
+
+
+COLLECT FEE - page to be refactored (ui is updated just the postioning and final touches)
+
+
+receipts: 16/08/2024 (the date for which you can find the reseipts)
+
+
+
+You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+C:\code\major\account\academate_account\node_modules\mysql2\lib\commands\query.js:43
+    throw new Error(err);
+          ^
+
+Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+    at Query.then (C:\code\major\account\academate_account\node_modules\mysql2\lib\commands\query.js:43:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+REPORTS/DAILY-REPORT
+me kuch to issue hai
+on the backend side
+the issue is stated above
+-- the way to recreate this issue is to try to generate a report fron frontend
+
+COMING BACK TO THIS LATER
+getheadwisereport is not working api calling
+bal reporsts api is not working the same issue
+
+
+
+
+
+IMPORTANT TASKS TO COMPLETE:
+-- finishing touches
+-- ui betterment
+-- above mentioned tasks 
+-- data appriopritately fetched and verify the data

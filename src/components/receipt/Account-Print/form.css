@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.fee-para {
+    /* margin: 1rem 0; */
+    display: flex;
+}
+.receipt,.rtd {
+    border-collapse: collapse;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.receipt,td {
+    padding: 10px;
+}
+.table-head{
+    font-weight: 700;
+}
+.words{
+    font-weight: 800;
+}
+.stamp-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stamp{
+    width: 150px;
+}

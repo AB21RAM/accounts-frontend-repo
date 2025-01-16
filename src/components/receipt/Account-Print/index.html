@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form.css">
+    <title>Student Fee Receipt</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Inter', sans-serif;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+        }
+
+        .header-row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .fee-para {
+            margin: 1rem 0;
+            display: flex;
+        }
+        table,td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+        .table-head{
+            font-weight: 700;
+        }
+        .words{
+            font-weight: 800;
+        }
+        .stamp-box{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .stamp{
+            width: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-row">
+                <h4>Receipt No: 99912</h4>
+                <h3>Fee Receipt</h3>
+                <h4>Date: 01/01/2023</h4>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="fee-para">
+                <p>Received from <span class="st_name">Name</span>
+                    for <span class="st_branch">EXTC</span> <span class="st_acyear">2019-2022 </span>
+                    Draft No. <span class="st_draft">19022</span> drawn on <span class="st_bank">SBI Bank, Sion</span>
+                    <span class="st_cat">OPEN</span>
+                </p>
+
+            </div>
+            <div class="tab">
+                <table style="width:100%">
+                    <tbody>
+                        <tr class="table-head">
+                            <td>Sr.</td>
+                            <td style="width:70%">Particulars</td>
+                            <td>Amount</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Tuition Fees</td>
+                            <td>1,19,999</td>
+                            <td>Staff Name</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Development Fees</td>
+                            <td>111</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="words">Rupees One Lakh Thirty Thousand Ninety Nine Only</td>
+                            <td class="words">1,37,099</td>
+                            <td rowspan="2">
+                                <img src="stamp.png" alt=""  class="stamp">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi molestias esse suscipit dolorem veniam ut iusto velit autem neque aliquid.</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+          
+        </div>
+
+    </div>
+</body>
+
+</html>
